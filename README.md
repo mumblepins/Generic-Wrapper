@@ -1,5 +1,7 @@
 # Generic-Wrapper
-Generic helper to modify command line arguments of a calling program
+Generic helper to modify command line arguments of a calling program.
+
+[Get a Pyinstaller all-in-one version in the Releases.](https://github.com/mumblepins/Generic-Wrapper/releases/latest)
 
 Uses either extra command line options or environment variables to modify the command input
 
@@ -13,7 +15,7 @@ Change options can be specified by either environment variables, or extra comman
 
 Multiple command line arguments of each option are allowed; to do multiple versions of environment variables, seperate with a `|`(pipe) symbol.  Command line options should be prefixed with two dashes `--`.
 
-####Options
+#### Options
 
 * `GWX_DEL`&ndash; Deletes just an option (`side` would delete `--side`)
 * `GWX_DEL_ALL`&ndash; Deletes an option with argument (`side` would completely delete `--side up`)
